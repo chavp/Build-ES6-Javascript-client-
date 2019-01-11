@@ -1,0 +1,32 @@
+{
+  "name": "mylab",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "test",
+    "start": "nodemon --exec babel-node src/es6_for_human.js",
+    "build": "gulp clean"
+  },
+  "author": "ding",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "del": "^3.0.0",
+    "gulp-babel": "^8.0.0",
+    "nodemon": "^1.18.9",
+    "webpack": "^4.28.3",
+    "webpack-stream": "^5.2.1",
+    "lodash": "^4.17.11"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "dotenv": "^6.2.0",
+    "gulp-sync": "^0.1.4"
+  }
+}
