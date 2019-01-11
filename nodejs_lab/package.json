@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "test": "test",
-    "start": "nodemon --exec babel-node src/es6_for_human.js",
-    "build": "gulp clean"
+    "run": "nodemon --exec babel-node src/chapter_2.js",
+    "build": "gulp build"
   },
   "author": "ding",
   "license": "ISC",
